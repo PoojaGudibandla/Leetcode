@@ -1,7 +1,7 @@
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         int i=0,j=0;
-        double avg=0, maxAvg =-1111, sum=0;
+        double avg=0, maxAvg =Integer.MIN_VALUE, sum=0;
         for( i=0;i<k;i++){
             sum+=nums[i];
         }
